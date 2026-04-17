@@ -38,9 +38,31 @@ An interactive educational tool for exploring the Chomsky Hierarchy of formal la
 ---
 
 ## Getting Started
+Prerequisites
+
+Node.js 16+
+npm or yarn
+
+Installation
+
+bashgit clone https://github.com/your-username/chomsky-hierarchy.git
+cd chomsky-hierarchy
+npm install
+
+Running Locally
+
+bashnpm start
+
+## Running it
+Opens at http://localhost:3000.
+
+Building for Production
+
+bashnpm run build
+
 ## Running it
 
-Just open "chomskyhierarchy.netlify.app" in a browser. That's it.
+Or Just open "chomskyhierarchy.netlify.app" in a browser. That's it.
 
 
 ## Files
