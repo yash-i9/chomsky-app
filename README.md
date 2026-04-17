@@ -45,7 +45,7 @@ npm or yarn
 
 Installation
 
-bashgit clone https://github.com/your-username/chomsky-hierarchy.git
+bashgit clone https://github.com/yash-i9/chomsky-app
 cd chomsky-hierarchy
 npm install
 
@@ -117,3 +117,5 @@ A built-in symbol keyboard provides easy input of superscripts, set notation, an
 ## Author
 
 Made by Yash
+2024UCM2329
+NSUT CSE Mathematics And Computing 2028
