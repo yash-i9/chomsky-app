@@ -1,0 +1,29 @@
+:root {
+  --text-main: #e2e8f0;
+  --bg-grad: linear-gradient(160deg, #07070f 0%, #0d0d1a 40%, #0a0a14 100%);
+  --card-bg: rgba(15,15,25,0.7);
+  --panel-bg: rgba(10,10,20,0.7);
+  --select-bg: #111;
+  --w-rgb: 255, 255, 255;
+  --b-rgb: 0, 0, 0;
+  color-scheme: dark;
+}
+
+body.light-mode {
+  --text-main: #475569;
+  --bg-grad: linear-gradient(160deg, #f8fafc 0%, #f1f5f9 40%, #e2e8f0 100%);
+  --card-bg: rgba(255,255,255,0.85);
+  --panel-bg: rgba(241,245,249,0.8);
+  --select-bg: #fff;
+  --w-rgb: 0, 0, 0;
+  --b-rgb: 255, 255, 255;
+  color-scheme: light;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode text[fill="var(--text-main)"] {
+  fill: var(--text-main);
+}
